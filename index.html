@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board Using HTML AND CSS</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div class="sidebar">
+        <h1 class="logo">JobsPlace</h1>
+        <div class="Manus">
+            <a href="#"><ion-icon name="Home-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="Newspaper-outline"></ion-icon>Find Jobs</a>
+            <a href="#"><ion-icon name="Stats-chart-outline"></ion-icon>Performance</a>
+            <a href="#"><ion-icon name="Bookmarks-outline"></ion-icon>Bookmarks</a>
+            <a href="#"><ion-icon name="Mail-unread-outline"></ion-icon>Message</a>
+            <a href="#"><ion-icon name="Settings-outline"></ion-icon>Setting</a>
+        </div>
+
+        <div class="profile">
+            <img class="profile-img" src="profile.jpg">
+            <div class="profile-name">
+                <h4>Abdul Majeed</h4>
+                <p>Developer</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="main">
+            <div class="main-header">
+                <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+                <div class="search">
+                    <input type="text" placeholder="Search your Best job Here...">
+                    <button class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+                </div>
+            </div>
+            <div class="filter-wrapper">
+                <p>Recommendation</p>
+                <div class="filter">
+                    <button class="btn-filter">Frontend Developer</button>
+                    <button class="btn-filter">Backend Developer</button>
+                    <button class="btn-filter">Graphic Designer</button>
+                    <button class="btn-filter">Data Scientist</button>
+                    <button class="btn-filter">Content Writer</button>
+                </div>
+            </div>
+            <div class="sort">
+                <p>sort</p>
+                <div class="sort-list">
+                    <select>
+                        <option value="0">All</option>
+                        <option value="1">Newest Post</option>
+                        <option value="2">Oldest Post</option>
+                        <option value="3">Most Relevant</option>
+                        <option value="4">Highest Paid</option>
+                    </select>
+                </div>
+            </div>
+            <div class="wrepper">
+                <div class="card">
+                    <div class="card-left blue-bg">
+                        <img src="google.jpg">
+                    </div>
+                    <div class="card-center">
+                        <h3>Google</h3>
+                        <p class="card-detail">ConsoleApp Developer, .Net Developer</p>
+                        <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Bontona L1-street</p>
+                        <div class="card-sub">
+                            <p><ion-icon name="today-outline"></ion-icon>1 mins ago</p>
+                            <p><ion-icon name="hourglass-outline"></ion-icon>full time</p>
+                            <p><ion-icon name="people-outline"></ion-icon>200 Applications</p>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="#">.Net Developer</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$700K</b><span>Year</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left yellow-bg">
+                        <img src="microsoft.jpg">
+                    </div>
+                    <div class="card-center">
+                        <h3>Microsoft</h3>
+                        <p class="card-detail">System & Network, Administrator</p>
+                        <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Newyork Main-street</p>
+                        <div class="card-sub">
+                            <p><ion-icon name="today-outline"></ion-icon>15 mins ago</p>
+                            <p><ion-icon name="hourglass-outline"></ion-icon>full time</p>
+                            <p><ion-icon name="people-outline"></ion-icon>50 Applications</p>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="#">Administrator</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$500K</b><span>Year</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left red-bg">
+                        <img src="twitter.jpg">
+                    </div>
+                    <div class="card-center">
+                        <h3>Twitter</h3>
+                        <p class="card-detail">Data Engineer,ML Plateform</p>
+                        <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Washington-DC</p>
+                        <div class="card-sub">
+                            <p><ion-icon name="today-outline"></ion-icon>2 Hour ago</p>
+                            <p><ion-icon name="hourglass-outline"></ion-icon>full time</p>
+                            <p><ion-icon name="people-outline"></ion-icon>800 Applications</p>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="#">Data Engineer</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$1200K</b><span>Year</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left purple-bg">
+                        <img src="apple.jpg">
+                    </div>
+                    <div class="card-center">
+                        <h3>Apple</h3>
+                        <p class="card-detail">Make IOS Softwere, Software Engineer</p>
+                        <p class="card-loc"><ion-icon name="location-outline"></ion-icon>France WH3-street</p>
+                        <div class="card-sub">
+                            <p><ion-icon name="today-outline"></ion-icon>1.5 Hour ago</p>
+                            <p><ion-icon name="hourglass-outline"></ion-icon>full time</p>
+                            <p><ion-icon name="people-outline"></ion-icon>600 Applications</p>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="#">UI UX Engineer</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$2000K</b><span>Year</span></p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div class="card-left white-bg">
+                        <img src="System.jpg">
+                    </div>
+                    <div class="card-center">
+                        <h3>System Software House</h3>
+                        <p class="card-detail">Web Developer,Developer</p>
+                        <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Pakistan-Karachi</p>
+                        <div class="card-sub">
+                            <p><ion-icon name="today-outline"></ion-icon>2 Hour ago</p>
+                            <p><ion-icon name="hourglass-outline"></ion-icon>full time</p>
+                            <p><ion-icon name="people-outline"></ion-icon>600 Applications</p>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="#">Web Developer</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>200K</b><span>Month</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+
+      <div class="detail">
+        <ion-icon class="close-detail" name="close=outline"></ion-icon>
+        <div class="detail-header">
+            <img src="google.jpg">
+            <h2>Google</h2>
+            <p>.Net Developer</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <div class="about">
+                <h4>About Company</h4>
+                <p>Google LLC is an American multinational technology company focusing on artificial intelligence, 
+                    online advertising.</p>
+                <a href="#">Read More</a>
+            </div>
+            <hr class="divider">
+            <div class="qualification">
+                <h4>Qualification</h4>
+                <ul>
+                    <li>Clasics PhD- The Postgraduate of Artificial Intelligence Expert Knowledge of New Annovation and Technology </li>
+                    <li>Software Engineer- The Exprinence of Many Programming Languages Knowledge of error finding and testing  </li>
+                    <li>IT-Professional- Iplementation Rules and Straigity Policies Networks And Systems Installation etc   </li>
+                </ul>
+            </div>
+        </div>
+        
+        <hr class="divider">
+        <div class="detail-btn">
+            <button class="btn-apply">Apply Now</button>
+            <button class="btn-save">Save Job</button>
+        </div>
+      </div>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</html>
