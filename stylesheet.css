@@ -1,0 +1,122 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+section
+{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(43, 24, 24, 0.6),rgba(41, 26, 26, 0.6)), url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    width: 85%;
+    margin: auto;
+}
+nav
+{
+    height: 80px;
+}
+nav h1
+{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: black;
+}
+nav ul
+{
+    float: right;
+    line-height: 80px;
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover
+{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s ease;
+}
+nav ul li .active
+{
+    background-color: rgb(255, 255, 255);
+}
+.article
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1
+{
+    font-size: 36px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article h3
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: #d6a9b0;
+}
+.article p
+{
+    font-size: 18px;
+    color: white;
+    line-height: 1.0;
+    margin-bottom: 50px;
+}
+.article .btn
+{
+    color: white;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: black;
+}
+.article .btn:hover
+{
+    background-color: rgb(211, 153, 153);
+    transition: 0.5s ease;
+}
+.icon i
+{
+    top: 270px;
+    left: 80%;
+    width: 0;
+    height: 100%;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #070606;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .2s;
+}
